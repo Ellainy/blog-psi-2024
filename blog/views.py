@@ -4,3 +4,12 @@ from django.shortcuts import render
 
 def index(request):
     return render(request,"index.html")
+
+def sobre(request):
+    return render(request,"aboutus.html")
+
+def diturbios(request):
+    return render(request,"dirturbs.html")
+
+def ajuda(request):
+    return render(request,"help.html")
